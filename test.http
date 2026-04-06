@@ -1,0 +1,8 @@
+POST http://localhost:3000/rates
+Content-Type: application/json
+
+{
+  "origin": "10001",
+  "destination": "90001",
+  "weight": 2
+}
